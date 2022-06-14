@@ -7,7 +7,7 @@ import numpy as np
 from scipy.sparse import coo_matrix
 from scipy.sparse.linalg import splu, spilu
 
-from utils import *
+from .utils import *
 
 
 class PPRBase(object):

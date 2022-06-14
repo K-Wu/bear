@@ -6,7 +6,7 @@ import tensorflow as tf
 from scipy.sparse import coo_matrix
 from scipy.sparse.linalg import splu, spilu, inv
 
-from utils import *
+from .utils import *
 
 
 _sdmm = tf.sparse_tensor_dense_matmul
